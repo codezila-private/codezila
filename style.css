@@ -23,6 +23,7 @@ body{
     position: relative;
     left: 50%;
     transform: translate(-50%,0);
+    margin-bottom: 10px;
 }
 .coming-soon div{
     widows: 100%;
@@ -34,7 +35,6 @@ body{
     position: relative;
     top: 50%;
     transform: translate(0,-50%);
-    margin-bottom: 10px;
 }
 .contact, .insta{
     width: 100%;
