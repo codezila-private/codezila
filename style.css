@@ -42,9 +42,6 @@ body{
     color: #46b14d;
     text-align: center;
     margin-top: 20px;
-    position: relative;
-    top: 50%;
-    transform: translate(0,-50%);
 }
 .contact span, .insta span{
     font-size: 1.2em;
