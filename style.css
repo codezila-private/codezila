@@ -15,7 +15,7 @@ body{
 }
 .coming-soon{
     width: 90%;
-    height: fit-content;
+    height: 350px;
     border: 1px solid #46b14d;
     padding: 8px;
     align-items: center;
