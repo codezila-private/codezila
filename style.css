@@ -10,7 +10,7 @@ body{
 }
 .logo a,.logo a img{
     width: auto;
-    height: 40px;
+    height: 60px;
     position: absolute;
     left: 50%;
     transform: translate(-50%,0);
