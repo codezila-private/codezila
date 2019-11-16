@@ -1,0 +1,52 @@
+body{
+    padding: 15px 40px;
+    margin: 0;
+    background: #ffffff;
+}
+.logo{
+    padding: 10px;
+    width: 100%;
+    height: 60px;
+}
+.logo a,.logo a img{
+    width: auto;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.coming-soon{
+    width: 100%;
+    height: 200px;
+    border: 1px solid #46b14d;
+    margin: 18px 0px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.coming-soon div{
+    widows: 50%;
+    height: 50%;
+    background:url("Asset\ 5@288x.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
+
+}
+.contact{
+    width: 100%;
+    height: 20px;
+    color: #46b14d;
+    align-content: center;
+    text-align: center;
+}
+.contact span{
+    font-size: 1.2em;
+}
+.contact a{
+    color: #5d9962;
+}
+
