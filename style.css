@@ -1,7 +1,8 @@
 body{
-    padding: 15px 40px;
+    padding: 10px 40px;
     margin: 0;
     background: #ffffff;
+    color: #46b14d;
 }
 .logo{
     padding: 10px;
@@ -11,23 +12,22 @@ body{
 .logo a,.logo a img{
     width: auto;
     height: 60px;
-    position: absolute;
+}
+.coming-soon{
+    width: 90%;
+    height: 400px;
+    border: 1px solid #46b14d;
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
     left: 50%;
     transform: translate(-50%,0);
 }
-.coming-soon{
-    width: 100%;
-    height: 200px;
-    border: 1px solid #46b14d;
-    margin: 18px 0px;
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
-}
 .coming-soon div{
-    widows: 50%;
-    height: 50%;
-    background:url("Asset\ 5@288x.png");
+    widows: 100%;
+    height: 100%;
+    background:url("cz_representative@4x.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -36,17 +36,32 @@ body{
     transform: translate(0,-50%);
 
 }
-.contact{
+.info{
     width: 100%;
-    height: 20px;
-    color: #46b14d;
-    align-content: center;
-    text-align: center;
+    height: fit-content;
+    display: flex;
 }
-.contact span{
+.contact, .insta{
+    width: 50%;
+    height: 80px;
+    color: #46b14d;
+    text-align: center;
+    margin-top: 10px;
+}
+.contact span, .insta span{
     font-size: 1.2em;
 }
-.contact a{
+.contact a , .insta a{
     color: #5d9962;
 }
-
+.insta a svg{
+   fill:#5d9962;
+   margin-right: 5px;
+   position: relative;
+   top: 8px;
+   left: -10px;
+}
+.contact a{
+    position: relative;
+    top: 8px;
+}
