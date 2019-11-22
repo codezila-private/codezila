@@ -86,7 +86,7 @@ p{
         height:600px;
         position: relative;
         left: 30%;
-        transform: translate(-50%, 10%);
+        transform: translate(-50%, 0%);
         margin-bottom: 10px;
     }
     .intro{
