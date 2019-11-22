@@ -89,6 +89,9 @@ p{
         left: 50%;
         transform: translate(-50%,0%);
     }
+    #blank{
+        height: 200px;
+    }
     #pinch{
         width: 90%;
         height:600px;
