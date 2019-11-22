@@ -81,17 +81,27 @@ p{
 }
 
 @media only screen and (max-width: 600px) {
+    .logo{
+        padding: 10px 0px;
+    }
+    .logo a img{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,0%);
+    }
     #pinch{
         width: 90%;
         height:600px;
         position: relative;
-        left: 30%;
-        transform: translate(0%, 20%);
+        left: 20%;
+        transform: translate(0%, 50%);
         margin-bottom: 10px;
     }
     .intro{
+        min-width: 200px;
+        min-height: 180px;
         width: 50%;
-        height: 50%;
+        height: 30%;
     }
     .intro::after {
         width: 70px;
@@ -104,12 +114,12 @@ p{
     #pinch{
         display: flex;
         width: 90%;
-        height: 450px;
+        height: 500px;
     }
     .intro{
         float: left;
         width: 30%;
-        height: 30%;
+        height: 25%;
         position: relative;
     }
     .rep{
