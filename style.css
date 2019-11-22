@@ -91,7 +91,7 @@ p{
     }
     .intro{
         width: 50%;
-        height: 40%;
+        height: 50%;
     }
     .intro::after {
         width: 70px;
