@@ -92,7 +92,7 @@ p{
     }
     #pinch{
         width: 90%;
-        height:600px;
+        height:500px;
         position: relative;
         left: 20%;
         transform: translate(0%, 50%);
