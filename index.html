@@ -60,6 +60,19 @@
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     firebase.analytics();
+    // Get a reference to the database service
+    var database = firebase.database();
+    
+    var ref = database.ref('visitors');
+    ref.on('value',gotData,errData);
+    
+    function gotData(data){
+        console.log(data.val());
+    }
+    function errData(err){
+        console.log("error! ");
+        console.log(err);
+    }
     </script>
 </body>
 <!--     <script>
