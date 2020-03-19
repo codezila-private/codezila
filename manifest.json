@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "short_name": "CODEZILA",
+=======
+  "short_name": "Codezila",
+>>>>>>> e9f1c7e14959cfcc562f8732728c7398b61e451e
   "name": "CODEZILA - An Open Source Community",
   "icons": [
     {
@@ -18,7 +22,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "codezila.org",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
